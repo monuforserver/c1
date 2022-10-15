@@ -12,5 +12,5 @@ export KBUILD_BUILD_USER=zacky
 export KBUILD_BUILD_HOST=nfsproject
 export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=nfsproject
-mka banana -j8
+m banana
 # Switch to vanilla build
