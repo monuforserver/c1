@@ -9,8 +9,8 @@ source build/envsetup.sh
 lunch lineage_whyred-userdebug
 export TZ=Asia/Jakarta
 export KBUILD_BUILD_USER=zacky
-export KBUILD_BUILD_HOST=nfsproject
+export KBUILD_BUILD_HOST=cirrus-ci
 export BUILD_USERNAME=zacky
-export BUILD_HOSTNAME=nfsproject
+export BUILD_HOSTNAME=cirrus-ci
 mka bacon -j8
 # Build RiceDroid Thirteen Vanilla
