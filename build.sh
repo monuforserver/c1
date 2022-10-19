@@ -13,4 +13,4 @@ export KBUILD_BUILD_HOST=cirrus-ci
 export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=cirrus-ci
 brunch whyred
-# Build RiceDroid Thirteen Vanilla
+# Build RiceDroid Thirteen
