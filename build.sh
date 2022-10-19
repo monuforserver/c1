@@ -9,6 +9,7 @@ source build/envsetup.sh
 lunch lineage_whyred-userdebug
 export TZ=Asia/Jakarta
 export ALLOW_MISSING_DEPENDENCIES=true
+export SELINUX_IGNORE_NEVERALLOWS=true
 export KBUILD_BUILD_USER=zacky
 export KBUILD_BUILD_HOST=NFS-Project
 export BUILD_USERNAME=zacky
