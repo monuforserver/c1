@@ -6,11 +6,11 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build rom
 export NFS_TARGET_BUILD_ROM=RiceDroid
 source build/envsetup.sh
-lunch lineage_whyred-userdebug
+#lunch lineage_whyred-userdebug
 export TZ=Asia/Jakarta
 export KBUILD_BUILD_USER=zacky
 export KBUILD_BUILD_HOST=cirrus-ci
 export BUILD_USERNAME=zacky
 export BUILD_HOSTNAME=cirrus-ci
-mka bacon -j8
+brunch whyred
 # Build RiceDroid Thirteen Vanilla
