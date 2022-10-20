@@ -7,12 +7,12 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 export NFS_TARGET_BUILD_ROM=RiceDroid
 source build/envsetup.sh
 lunch lineage_X00TD-userdebug
-export TZ=Asia/Jakarta
+export TZ=Asia/Shanghai
 export ALLOW_MISSING_DEPENDENCIES=true
 export SELINUX_IGNORE_NEVERALLOWS=true
-export KBUILD_BUILD_USER=zacky
+export KBUILD_BUILD_USER=dotkit
 export KBUILD_BUILD_HOST=NFS-Project
-export BUILD_USERNAME=zacky
+export BUILD_USERNAME=dotkit
 export BUILD_HOSTNAME=NFS-Project
 mka bacon -j8
 # Build RiceDroid Thirteen Vanilla
