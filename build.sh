@@ -6,7 +6,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build rom
 #export NFS_TARGET_BUILD_ROM=CipherOS
 source build/envsetup.sh
-lunch lineage_X00TD-userdebug
+lunch cipher_X00TD-userdebug
 export TZ=Asia/Shanghai
 #export ALLOW_MISSING_DEPENDENCIES=true
 #export SELINUX_IGNORE_NEVERALLOWS=true
