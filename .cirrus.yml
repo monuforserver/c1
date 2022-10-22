@@ -5,6 +5,7 @@ env:
   WORKDIR: "/tmp"
   EMAIL: "ENCRYPTED[351f1b6cb9169531b1947292700e454026ce23770d79a4bc64cb0aafd9e90cf90792be5f551e343ac2a506d4720605ea]"
   CIRRUS_CLONE_DEPTH: "1"
+  credentials: "ENCRYPTED[b5cc9cfc03ba04507e78432058852817b69754101c47ae5c3ac63e0c89dd889595013f997d49ac4081623952ac47fdff]"
 
 task:
   name: "Setting Up, Syncing, Building and Uploading"
@@ -19,6 +20,10 @@ task:
      - ./script/load_ccache.sh
 
   Sync-rom_script:
+     - git config --global user.name "Tiktodz"
+     - git config --global user.email "kuplemarkeple@gmail.com"
+     - echo "$credentials" > ~/.git-credentials
+     - git config --global credential.helper store --file=~/.git-credentials
      - ./script/sync.sh
      
   Build-rom_script:
