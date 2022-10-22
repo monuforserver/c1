@@ -10,5 +10,5 @@ export TZ=Asia/Shanghai
 #export ALLOW_MISSING_DEPENDENCIES=true
 #export SELINUX_IGNORE_NEVERALLOWS=true
 export BUILD_USERNAME=dotkit
-mka bacon -j8
+m bacon -j8
 # end
