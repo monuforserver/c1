@@ -5,9 +5,10 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 source build/envsetup.sh
-brunch X00TD
+lunch lineage_X00TD-userdebug
 export TZ=Asia/Shanghai
 #export ALLOW_MISSING_DEPENDENCIES=true
 #export SELINUX_IGNORE_NEVERALLOWS=true
 export BUILD_USERNAME=dotkit
+mka bacon -j8
 # end
