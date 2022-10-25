@@ -8,6 +8,6 @@ source build/envsetup.sh
 lunch superior_X00TD-userdebug
 export TZ=Asia/Shanghai
 #export ALLOW_MISSING_DEPENDENCIES=true
-#export SELINUX_IGNORE_NEVERALLOWS=true
+export SELINUX_IGNORE_NEVERALLOWS=true
 m bacon -j8
 # end
