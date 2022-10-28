@@ -58,7 +58,7 @@ echo -e \
 ━━━━━━━━━ஜ۩۞۩ஜ━━━━━━━━
 
 <b>🙇 Debelober : "$CIRRUS_REPO_OWNER"</b>
-<b>🆑Changelogs:<b>
+<b>🆑Changelogs:</b>
 <b>-Initial Unofficial build</b>
 <b>-Shipped to cheetah august FP</b>
 <b>-Disable wallpaper zooming</b>
