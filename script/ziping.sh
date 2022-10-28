@@ -57,7 +57,17 @@ echo -e \
 <b>📘 SHA1 :-</b> <code>"$(sha1sum *zip | cut -d' ' -f1)"</code>
 ━━━━━━━━━ஜ۩۞۩ஜ━━━━━━━━
 
-<b>🙇 By : "$CIRRUS_REPO_OWNER"</b>
+<b>🙇 Debelober : "$CIRRUS_REPO_OWNER"</b>
+<b>Changelogs:<b>
+<b>-Initial Unofficial build</b>
+<b>-Shipped to cheetah august FP</b>
+<b>-Disable wallpaper zooming</b>
+<b>-Disable the Significant Motion Detector<b/>
+<b>-Enable zygote critical window</b>
+<b>-WifiOverlay: Disable WPA2 and WPA3 upgrade<b/>
+<b>-Add missing netflix prop</b>
+<b>-Update Graphics (SDM) from LA.UM.8.2.r1-07500-sdm660.0</b>
+<b>-Limit zram size to 2.0GB for 2GB Non-Go devices</b>
 " > tg.html
 TG_TEXT=$(< tg.html)
 telegram_message "$TG_TEXT"
