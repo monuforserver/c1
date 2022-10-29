@@ -52,14 +52,13 @@ echo -e \
 <b>📅 Date :- "$(date +%d\ %B\ %Y)"</b>
 <b>🕔 Time Zone :- "$(date +%T)"</b>
 
-
 <b>📕 MD5 :-</b> <code>"$(md5sum *zip | cut -d' ' -f1)"</code>
 <b>📘 SHA1 :-</b> <code>"$(sha1sum *zip | cut -d' ' -f1)"</code>
 ━━━━━━━━━ஜ۩۞۩ஜ━━━━━━━━
 
 <b>🙇 Debelober : "$CIRRUS_REPO_OWNER"</b>
 <b>🆑Changelogs:</b>
-<b>-Disable bootanimation</b>
+<b>-Initial build</b>
 " > tg.html
 TG_TEXT=$(< tg.html)
 telegram_message "$TG_TEXT"
