@@ -10,4 +10,3 @@ export TZ=Asia/Makassar
 #export ALLOW_MISSING_DEPENDENCIES=true
 export SELINUX_IGNORE_NEVERALLOWS=true
 make bacon -j8
-# end
