@@ -9,5 +9,5 @@ lunch colt_X00TD-userdebug
 export TZ=Asia/Makassar
 #export ALLOW_MISSING_DEPENDENCIES=true
 export SELINUX_IGNORE_NEVERALLOWS=true
-make bacon -j8
+make bacon
 # end
