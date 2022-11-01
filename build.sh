@@ -9,5 +9,6 @@ lunch xdroid_X00TD-userdebug
 export TZ=Asia/Jakarta
 #export ALLOW_MISSING_DEPENDENCIES=true
 #export SELINUX_IGNORE_NEVERALLOWS=true
+export SKIP_API_CHECKS=true
 make xd -j8
 # end
