@@ -4,10 +4,10 @@ git clone https://github.com/Tiktodz/local_manifest --depth 1 -b arrow .repo/loc
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
 # build rom
-source build/envsetup.sh
+. build/envsetup.sh
 lunch arrow_X00TD-userdebug
 export TZ=Asia/Jakarta
 #export ALLOW_MISSING_DEPENDENCIES=true
 #export SELINUX_IGNORE_NEVERALLOWS=true
-m bacon -j8
+m bacon
 # end
