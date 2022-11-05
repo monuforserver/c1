@@ -9,5 +9,5 @@ lunch lineage_X00TD-userdebug
 export TZ=Asia/Jakarta
 #export ALLOW_MISSING_DEPENDENCIES=true
 #export SELINUX_IGNORE_NEVERALLOWS=true
-mka bacon -j8
+mka bacon
 # end
