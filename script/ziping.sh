@@ -110,9 +110,4 @@ else
 fi
 }
 
-msg
-telegram_message
-enviroment
-upload_rom
-upload_ccache
 upload
