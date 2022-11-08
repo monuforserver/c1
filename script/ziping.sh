@@ -51,14 +51,22 @@ echo -e \
 <b>📥 Download Link :-</b> <a href=\"${DL_LINK}\">Here</a>
 <b>📅 Date :- "$(date +%d\ %B\ %Y)"</b>
 <b>🕔 Time Zone :- "$(date +%T)"</b>
-
+━━━━━━━━━ஜ۩۞۩ஜ━━━━━━━━
 <b>📕 MD5 :-</b> <code>"$(md5sum *zip | cut -d' ' -f1)"</code>
 <b>📘 SHA1 :-</b> <code>"$(sha1sum *zip | cut -d' ' -f1)"</code>
 ━━━━━━━━━ஜ۩۞۩ஜ━━━━━━━━
 
 <b>🙇 Maintainer : "$CIRRUS_REPO_OWNER"</b>
-<b>🆑Changelogs:</b>
-<b>-Fix sepolicy</b>
+
+<b>🆑Device Changelogs:</b>
+<b>-Initial Unofficial build</b>
+<b>-Switch to qcom audio effects</b>
+<b>-msm_irqbalance: Add glink lpass irq to ignored list</b>
+<b>-blacklist all wlan irqs</b>
+<b>-Adjust msm_irqbalance prio</b>
+<b>-Adjust TAStuneboost init value</b>
+<b>-Add perf IOP blobs from SLD_sprout</b>
+<b>-Force restorecon and optimization</b>
 " > tg.html
 TG_TEXT=$(< tg.html)
 telegram_message "$TG_TEXT"
