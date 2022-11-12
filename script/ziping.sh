@@ -59,14 +59,7 @@ echo -e \
 <b>🙇 Maintainer : "$CIRRUS_REPO_OWNER"</b>
 
 <b>🆑Device Changelogs:</b>
-<b>-Initial Unofficial build</b>
-<b>-Switch to qcom audio effects</b>
-<b>-msm_irqbalance: Add glink lpass irq to ignored list</b>
-<b>-blacklist all wlan irqs</b>
-<b>-Adjust msm_irqbalance prio</b>
-<b>-Adjust TAStuneboost init value</b>
-<b>-Add perf IOP blobs from SLD_sprout</b>
-<b>-Force restorecon and optimization</b>
+<b>-Tetap menyerah pasti bisa</b>
 " > tg.html
 TG_TEXT=$(< tg.html)
 telegram_message "$TG_TEXT"
