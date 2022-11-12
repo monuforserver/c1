@@ -9,6 +9,5 @@ lunch banana_X00TD-userdebug
 export TZ=Asia/Jakarta
 #export ALLOW_MISSING_DEPENDENCIES=true
 #export SELINUX_IGNORE_NEVERALLOWS=true
-export BUILD_USERNAME=pisang
 make bacon -j8
 # end
